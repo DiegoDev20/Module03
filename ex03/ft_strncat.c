@@ -1,4 +1,4 @@
-char *ft_strcat(char *dest,const char *src,unsigned int nb) 
+char *ft_strncat(char *dest,const char *src,unsigned int nb) 
 {
     char *t=dest;
     while(*t) 
@@ -15,4 +15,3 @@ char *ft_strcat(char *dest,const char *src,unsigned int nb)
 	*t='\0';
     return dest;
 }
-
